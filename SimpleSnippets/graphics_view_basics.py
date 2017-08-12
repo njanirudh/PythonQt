@@ -33,6 +33,9 @@ class FormWidget(QWidget):
 
         self.scene.addItem(self.imageItem)
 
+    def cannyEdgeOnImage(self,value1,value2):
+        
+
 
 if __name__ == "__main__":
 
